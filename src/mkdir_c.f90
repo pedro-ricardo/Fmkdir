@@ -3,7 +3,7 @@
 !------------------------------------------------------------------------------
 !
 ! Compile it with
-! gfortran -Wall -Wextra -g -fcheck=all mkdir_c.f08
+! gfortran -Wall -Wextra -g -fcheck=all -std=f2008 mkdir_c.f90 -o mkdir_c
 !
 ! Author:
 ! Pedro Ricardo C. Souza
